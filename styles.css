@@ -13,22 +13,13 @@ header {
 .addmore{
   height: 2.5em;
   background-color: #d0b9a6;
-}
-.addmore{
-  height: 2.5em;
-  background-color: #d0b9a6;
-  
-} 
-
-.addmore{
-  height: 2.5em;
-  background-color: #d0b9a6;
   margin-top: 20px;
+  margin-right: 32px;
 } 
 #addmore{
   height: 2.5em;
   background-color: #d0b9a6;
-  margin-left: 35%;
+  margin-left: 34%;
   margin-top: 20px;
 } 
 #addmoreeducation:hover , #addmore:hover{
@@ -39,15 +30,8 @@ header {
   margin-top: 20px;
   height: 2.5em;
   background-color: #d0b9a6;
-  margin-left: 35%;
+  margin-left: 34%;
 }
-
-#ppic{
-  margin-top: 0px;
-  height: 3em;
-  color: black;
-}
-
 .hidden{
   display: none;
 }
@@ -121,12 +105,14 @@ input:focus {
 }
 
 button {
-  background-color: #eb9f11;
   height: 3em;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+}
+button:hover{
+background-color: #eb9f11;
 }
 #skills-container {
   display: flex;
@@ -154,19 +140,17 @@ button {
 }
 
 #skills-list {
+  width: 90%;
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-#skills-list li {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+#ppic{
+  margin-top: 0px;
+  height: 3em;
+  color: black;
 }
 
-#skills-list li:last-child {
-  border-bottom: none;
-}
 
 @media (max-width: 768px) {
     h1{
