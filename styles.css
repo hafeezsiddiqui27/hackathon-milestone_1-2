@@ -14,6 +14,40 @@ header {
   height: 2.5em;
   background-color: #d0b9a6;
 }
+.addmore{
+  height: 2.5em;
+  background-color: #d0b9a6;
+  
+} 
+
+.addmore{
+  height: 2.5em;
+  background-color: #d0b9a6;
+  margin-top: 20px;
+} 
+#addmore{
+  height: 2.5em;
+  background-color: #d0b9a6;
+  margin-left: 35%;
+  margin-top: 20px;
+} 
+#addmoreeducation:hover , #addmore:hover{
+  background-color: #eb9f11;
+}
+
+#addmoreeducation{
+  margin-top: 20px;
+  height: 2.5em;
+  background-color: #d0b9a6;
+  margin-left: 35%;
+}
+
+#ppic{
+  margin-top: 0px;
+  height: 3em;
+  color: black;
+}
+
 .hidden{
   display: none;
 }
